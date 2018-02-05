@@ -1,0 +1,9 @@
+[package]
+name = "parsermacro"
+version = "0.1.0"
+authors = ["ayosec@gmail.com"]
+
+[dependencies]
+lalrpop_macro = { path = "lalrpop_macro" }
+lalrpop-util = "0.14"
+regex = "0.2"

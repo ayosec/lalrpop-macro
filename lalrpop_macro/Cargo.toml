@@ -1,0 +1,14 @@
+[package]
+name = "lalrpop_macro"
+version = "0.1.0"
+authors = ["app"]
+
+[lib]
+name = "lalrpop_macro"
+proc-macro = true
+
+[dependencies]
+lalrpop = "0.14"
+quote = "0.4"
+syn = { version = "0.12", features = [ "parsing", "full" ] }
+tempdir = "0.3"
